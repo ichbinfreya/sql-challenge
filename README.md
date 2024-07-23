@@ -8,7 +8,8 @@ This Challenge is divided into three parts: data modelling, data engineering, an
 I sketched an Entity Relationship Diagram (ERD) of the tables using QuickDBD. 
 
 ## Data Engineering
-I exported the ERD as a SQL and imported into the Schemas in a SQL database. In the Table section, it automatically created 6 tables correspomding to the six CSV files. Then, I imported each CSV file into each table.
+I created a table schema for each of the six CSV files. I specified the data types, primary keys, foreign keys, and other constraints.
+For the primary keys, verify that the column is unique. Otherwise, There are composite keys in both dept_emp and dept_manager, which takes two primary keys to uniquely identify a row.
 
 ## Data Analysis
-Following by each questions.
+Following by each questions listed in each step. Please refer to my SQL.
